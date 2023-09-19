@@ -1,0 +1,525 @@
+@font-face {
+    font-family: NTF_bold;
+    src: url(/assets/fonts/Ntflx_bd.ttf);
+}
+
+@font-face {
+    font-family: NTF_black;
+    src: url(/assets/fonts/Ntflx_blk.ttf);
+}
+
+@font-face {
+    font-family: NTF_medium;
+    src: url(/assets/fonts/Ntflx_md.ttf);
+}
+
+@font-face {
+    font-family: NTF_regular;
+    src: url(/assets/fonts/Ntflx_Rg.ttf);
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+}
+
+.main{
+    height: 100%;
+    width: 100%;
+}
+
+.hero{
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: 52% 70%;
+    border-bottom: 8px solid #232323;
+    background-image: radial-gradient(100% 55% at center, rgba(0,0,0,0) 0%, rgb(0, 0, 0) 100%), url(/assets//images/ntflx_bg_hd.jpg);
+    /* background-blend-mode: multiply; */
+}
+
+.hero .nav{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0% 10%;
+    font-family: Gilroy;
+}
+
+.nav .right{
+    width: 50%;
+}
+
+.right img{
+    width: 200px;
+}
+
+.nav .left{
+    width: 50%;
+    padding: 30px;
+    display: flex;
+    justify-content: end;
+    gap: 20px;
+}
+
+.left .sign:hover{
+    background-color: #c11119;
+    transition: all ease-out 0.3s;
+}
+
+.left button{
+    height: 30px;
+    width: 70px;
+}
+
+.left .lang{
+    height: 32px;
+    width: 120px;
+    border: solid #545454 0.1px;
+    border-radius: 3px;
+    color: #fff;
+    background-color: transparent;
+    font-family: NTF_regular;
+    font-size: 16px;
+    text-align: center;
+}
+
+.left .drop_down{
+    position: relative;
+}
+
+.drop_down .ri-translate-2{
+    position: absolute;
+    top: 8px;
+    left: 6px;
+}
+
+.left .sign{
+    height: 32px;
+    width: 80px;
+    border-radius: 3px;
+    border: none;
+    color: #fff;
+    background-color: #e50914;
+    padding: 4px 16px;
+    font-family: NTF_medium;
+    font-size: 14px;
+    text-align: center;
+}
+
+.hero .sign_up{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    color: #fff;
+}
+.sign_up .title
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 200px;
+    padding: 0% 10%;
+}
+
+.title h1{
+    font-size: 48px;
+    font-family: NTF_medium;
+}
+
+.title h3{
+    line-height: 2.5;
+    font-size: 25px;
+    font-family: NTF_regular;
+    font-weight: 10;
+}
+
+.title h4{
+    line-height: 2;
+    font-size: 20px;
+    font-family: NTF_regular;
+    font-weight: 10;
+}
+
+.title .register{
+    display: flex;
+    gap: 30px;
+    padding-top: 3%;
+}
+
+.register .mail{
+    height: 60px;
+    width: 380px;
+    border: 0.5px solid #5e5e5e;
+    border-radius: 5px;
+    background-color: rgba(16, 16, 16, 0.8);
+    padding-left: 15px;
+    color: #fff;
+}
+
+.register button{
+    width: 200px;
+    color: #fff;
+    background-color: #e50914;
+    border: none;
+    border-radius: 3px;
+    font-family: NTF_medium;
+    font-size: 25px;
+}
+
+i{
+    display: inline-block;
+    color: #fff;
+}
+
+button:hover{
+    background-color: #c11119;
+    transition: all ease-out 0.3s;
+}
+
+input::placeholder{
+    font-size: 16px;
+    color: #b8b8b8;
+}
+
+input{
+    font-size: 16px;
+}
+
+
+.main .watch-anywhere{
+    height: 80%;
+    color: #fff;
+    background-color: #000;
+    position: relative;
+    display: flex;
+    border-bottom: 8px solid #232323;
+}
+
+.watch-anywhere .enjoy{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    margin-left: 12%;
+}
+
+.enjoy h1{
+    font-family: NTF_bold;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 2;
+}
+
+.enjoy h2{
+    font-family: NTF_regular;
+    font-weight: 10;
+}
+
+.watch-anywhere .tv{
+    width: 50%;
+    margin-right: 12%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.tv img{
+    width: 38vw;
+    position: relative;
+    z-index: 3;
+}
+
+.tv video{
+    width: 29vw;
+    position: absolute;
+    top: 25%;
+    left: 12%;
+    z-index: 2;
+}
+
+.main .download{
+    height: 85%;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    color: #fff;
+    background-color: #000;
+    position: relative;
+    border-bottom: 8px solid #232323;
+}
+
+.download .phone{
+    position: relative;
+    margin-left: 11%;
+}
+
+.phone img{
+    width: 38vw;
+}
+
+.phone .download-box{
+    height: 100px;
+    width: 20vw;
+    background-color: #000000;
+    position: absolute;
+    border: 2px solid #5e5e5e;
+    border-radius: 10px;
+    top: 65%;
+    left: 23%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.download-box .st_text h3, h4{
+ font-family: NTF_regular;
+}
+
+.st_text h3{
+    font-size: 1.1vw;
+    line-height: 1.5;
+}
+
+.st_text h4{
+    font-size: 0.9vw;
+    color: #0071eb;
+}
+
+.download-box img{
+    width: 4vw;
+}
+
+.download .download-title{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    padding-left: 1%;
+}
+
+.download-title h1{
+    font-size: 50px;
+    font-family: NTF_bold;
+    font-weight: 500;
+    margin-bottom: 2%;
+}
+
+.download-title h3{
+    font-size: 25px;
+    font-weight: 10;
+    font-family: NTF_regular;
+}
+
+.main .everywhere{
+    height: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    color: #fff;
+    border-bottom: 8px solid #232323;
+    background-color: #000;
+}
+
+.everywhere .watch-everywhere{
+    width: 50%;
+    margin-left: 12%;
+}
+
+.watch-everywhere h1{
+    font-family: NTF_bold;
+    font-size: 50px;
+    font-weight: 500;
+    margin-bottom: 2%;
+}
+
+.watch-everywhere h3{
+    font-family: NTF_regular;
+    font-size: 25px;
+    font-weight: 10;
+}
+
+.everywhere .apple-mon{
+    width: 50%;
+    margin-right: 12%;
+    position: relative;
+}
+
+.apple-mon img{
+    width: 37vw;
+    position: relative;
+    z-index: 3;
+}
+
+.apple-mon video{
+    width: 24vw;
+    position: absolute;
+    left: 17%;
+    top: 8%;
+    z-index: 2;
+}
+
+.main .kids{
+    height: 85%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background-color: #000;
+    border-bottom: 8px solid #232323;
+}
+
+.kids img{
+    width: 38vw;
+}
+
+.kids h1{
+    font-family: NTF_bold;
+    font-size: 50px;
+    font-weight: 500;
+    margin-bottom: 2%;
+}
+
+.kids h3{
+    font-family: NTF_regular;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+/* -------------------------------------------- */
+
+.main .faq{
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 4%;
+}
+
+.faq h1{
+    font-family: NTF_bold;
+    font-weight: 700;
+    font-size: 50px;
+    padding-bottom: 2%;
+}
+
+.faq details{
+    height: 100px;
+    width: 80%;
+    background-color: #2d2d2d;
+}
+
+
+details summary{
+    font-size: 30px;
+    font-family: NTF_regular;
+    font-weight: 10;
+}
+
+details p{
+    font-size: 30px;
+    font-family: NTF_regular;
+    font-weight: 10;
+    transition: all ease 0.3s;
+}
+
+/* ------------------------------------------------ */
+
+.main footer{
+    margin: 5%;
+    padding: 0% 2%;
+    height: 50%;
+}
+
+footer h4{
+    color: #b3b3b3;
+    font-family: NTF_regular;
+    font-weight: 10;
+    font-size: 17px;
+    margin-bottom: 2%;
+}
+
+a{
+    color: #b3b3b3;
+    font-family: NTF_regular;
+    font-weight: 10;
+    font-size: 15px;
+}
+
+footer .container{
+    width: 100%;
+    display: flex;
+}
+
+.container .col-1{
+    display: flex;
+    flex-direction: column;
+    line-height: 2.5;
+    padding-right: 15%;
+}
+.container .col-2{
+    display: flex;
+    flex-direction: column;
+    line-height: 2.5;
+    padding-right: 15%;
+}
+.container .col-3{
+    display: flex;
+    flex-direction: column;
+    line-height: 2.5;
+    padding-right: 15%;
+}
+.container .col-4{
+    display: flex;
+    flex-direction: column;
+    line-height: 2.5;
+    padding-right: 15%;
+}
+
+.col-1 .lang{
+    height: 32px;
+    width: 120px;
+    border: solid #545454 0.1px;
+    border-radius: 3px;
+    color: #fff;
+    background-color: transparent;
+    font-family: NTF_regular;
+    font-size: 16px;
+    text-align: center;
+}
+
+.col-1 .drop_down{
+    position: relative;
+}
+
+.col-1 .drop_down .ri-translate-2{
+    position: absolute;
+    top: 1px;
+    left: 6px;
+}
+
+.col-1 h4{
+    font-family: NTF_regular;
+    font-weight: 10;
+    font-size: 16px;
+}
+
+.drop_down .lang{
+    background-color: #2c2c2c;
+}
