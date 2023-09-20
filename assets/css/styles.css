@@ -1,6 +1,6 @@
 @font-face {
     font-family: NTF_bold;
-    src: url(assets/fonts/Ntflx_bd.ttf);
+    src: url(/assets/fonts/Ntflx_bd.ttf);
 }
 
 @font-face {
@@ -41,7 +41,7 @@ html, body{
     background-repeat: no-repeat;
     background-position: 52% 70%;
     border-bottom: 8px solid #232323;
-    background-image: radial-gradient(100% 55% at center, rgba(0,0,0,0) 0%, rgb(0, 0, 0) 100%), url(assets//images/ntflx_bg_hd.jpg);
+    background-image: radial-gradient(100% 55% at center, rgba(0,0,0,0) 0%, rgb(0, 0, 0) 100%), url(assets/images/ntflx_bg_hd.jpg);
     /* background-blend-mode: multiply; */
 }
 
