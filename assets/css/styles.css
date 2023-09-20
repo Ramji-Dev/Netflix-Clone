@@ -1,6 +1,6 @@
 @font-face {
-    font-family: NTF_bold;
-    src: url(/assets/fonts/Ntflx_bd.ttf);
+    font-family: NTF-bold;
+    src: url(/assets/fonts/Ntflx-bd.ttf);
 }
 
 @font-face {
@@ -217,7 +217,7 @@ input{
 }
 
 .enjoy h1{
-    font-family: NTF_bold;
+    font-family: NTF-bold;
     font-size: 48px;
     font-weight: 500;
     line-height: 2;
