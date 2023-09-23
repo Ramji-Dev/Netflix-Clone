@@ -4,16 +4,426 @@
         padding: 0% 2%;
     }
 
+    .watch-anywhere .enjoy{
+        margin-left: 3%;
+    }
+
+    .watch-anywhere .tv{
+        margin-right: 3%;
+    }
+
+    .tv>img{
+        width: 47vw;
+    }
+
+    .tv video{
+        width: 35vw;
+    }
+
+    .download .phone{
+        margin-left: 3%;
+    }
+
+    .download .download-title{
+        margin-right: 4%;
+    }
+
+    .st_text h3{
+        font-size: 1.4vw;
+    }
+
+    .st_text h4{
+        font-size: 1.2vw;
+    }
+
+    .phone>img{
+        width: 46vw;
+    }
+
+    .phone .download-box{
+        width: 30vw;
+        left: 17%;
+        top: 69%;
+        box-shadow: 0px -3px 30px #000;
+    }
+
+    .everywhere .watch-everywhere{
+        margin-left: 3%;
+    }
+
+    .everywhere .apple-mon{
+        margin-right: 3%;
+    }
+
+    .apple-mon img{
+        width: 45vw;
+    }
+
+    .apple-mon video{
+        width: 28vw;
+    }
+
+    .kids .kid-image{
+        margin-left: 3%;
+    }
+
+    .kids .kid-profile{
+        margin-right: 3%;
+    }
+
+    .kid-image>img{
+        width: 48vw;
+    } 
+
+    .main footer{
+        margin: 3% 1%;
+    }
+
 }
 
 @media (max-width: 960px) {
+    .right>img{
+        width: 120px;
+    }
+
+    .hero{
+        height: 78%;
+        background-size: 1200px;
+        background-position: 50% 100%;
+    }
+
+    .title h1{
+        font-size: 35px;
+    }
+
+    .title h3{
+        font-size: 20px;
+    }
+
+    .title h4{
+        font-size: 19px;
+    }
+
+    .main .watch-anywhere{
+        height: 100%;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    } 
+
+    .watch-anywhere .enjoy{
+        width: 100%;
+        margin-left: 0%;
+        padding: 0% 10%;
+        align-items: center;
+        text-align: center;
+    }
     
+    .enjoy h1{
+        font-size: 35px;
+    }
+    
+    .enjoy h2{
+        font-size: 18px;
+    }
+
+    .watch-anywhere .tv{
+        width: 100%;
+        margin-right: 0%;
+    }
+
+    .tv img{
+        width: 65vw;
+    }
+
+    .tv video{
+        width: 50vw;
+        top: 20%;
+        left: 25%;
+    }
+
+    .main .download{
+        height: 100%;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .download .phone{
+        margin-left: 0%;
+    }
+
+    .phone>img{
+        width: 65vw;
+    }
+
+    .phone .download-box{
+        height: 90px;
+        width: 42vw;
+        padding: 1%;
+        top: 73%;
+        justify-content: space-between;
+    }
+
+    .st_text h3{
+        font-size: 1.8vw;
+        font-weight: 800;
+    }
+    
+    .st_text h4{
+        font-size: 1.6vw;
+        font-weight: 800;
+    }
+
+    .download-box>img{
+        width: 6vw;
+    }
+
+    .download .download-title{
+        margin-right: 0%;
+        padding: 0% 10%;
+        align-items: center;
+    }
+
+    .download-title h1{
+        font-size: 35px;
+    }
+
+    .download-title h3{
+        font-size: 18px;
+    }
+
+    .main .everywhere{
+        height: 100%;
+        flex-direction: column;
+    }
+
+    .everywhere .watch-everywhere{
+        width: 100%;
+        margin-left: 0%;
+        padding: 0% 10%;
+        text-align: center;
+    }
+
+    .watch-everywhere h1{
+        font-size: 35px;
+    }
+
+    .watch-everywhere h3{
+        font-size: 19px;
+    }
+    
+    .everywhere .apple-mon{
+        width: 100%;
+        margin-right: 0%;
+        margin-top: 4%;
+    }
+
+    .apple-mon>img{
+        width: 65vw;
+    }
+
+    .apple-mon video{
+        width: 42vw;
+        left: 28%;
+    }
+
+    .main .kids{
+        height: 100%;
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .kids .kid-image{
+        width: 100%;
+        margin-left: 0%;
+    }
+
+    .kids .kid-profile{
+        width: 100%;
+        margin-right: 0%;
+        padding: 0% 3%;
+    }
+
+    .kids h1{
+        font-size: 35px;
+    }
+
+    .kids h3{
+        font-size: 19px;
+    }
+
+    .kid-image>img{
+        width: 65vw;
+        margin-top: 3%;
+    }
+
+    .main footer{
+        height: 80%;
+    }
+
+    .container .section-1, .section-2{
+        flex-direction: column;
+    }
+
+    .container .section-2{
+        justify-content: start;
+    }
+
 }
 
-@media (max-width: 768px) {
-    
+@media (max-width: 778px) {
+
+    .sign_up .title{
+        top: 70px;
+        padding: 0% 0%;
+    }
+
+    .title .register{
+        gap: 8px;
+    }
+
+    .register .mail{
+        height: 60px;
+        width: 50vw;
+    }
+
+    .watch-anywhere .enjoy{
+        padding: 0% 5%;
+    }
+
+    .tv>img{
+        width: 80vw;
+    }
+
+    .tv video{
+        width: 60vw;
+        left: 19%;
+    }
+
+    .download .download-title{
+        padding: 0% 5%;
+    }
+
+    .download-title h3{
+        font-size: 20px;
+        margin-bottom: 2%;
+    }
+
+    .phone>img{
+        width: 85vw;
+    }
+
+    .phone .download-box{
+        width: 53vw;
+        left: 18%;
+    }
+
+    .st_text h3{
+        font-size: 2.1vw;
+    }
+
+    .st_text h4{
+        font-size: 2vw;
+    }
+
+    .everywhere .watch-everywhere{
+        padding: 0% 5%;
+    }
+
+    .apple-mon>img{
+        width: 83vw;
+    }
+
+    .apple-mon video{
+        width: 54vw;
+        left: 22%;
+        top: 8%;
+    }
+
+    .kids .kid-profile{
+        padding: 0% 5%;
+    }
+
+    .kid-image>img{
+        width: 80vw;
+    }
+
+    .main footer{
+        padding: 4%;
+    }
 }
 
 @media (max-width: 600px) {
+    .main .watch-anywhere{
+        height: 70%;
+    }
     
+    .main .download{
+        height: 70%;
+    }
+    
+    .main .everywhere{
+        height: 70%;
+    }
+
+    .main .kids{
+        height: 70%;
+    }
+
+    .nav .left{
+        width: 70%;
+        padding: 4.2%;
+    }
+
+    .left .sign{
+        height: 32px;
+        width: 80px;
+    }   
+
+    .sign_up .title{
+        padding: 0% 3%;
+    }
+
+    .title .register{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .register .mail{
+        height: 50px;
+        width: 80vw;
+        margin-bottom: 2%;
+    }
+
+    .register .start{
+        height: 50px;
+        width: 170px;
+        font-size: 20px;   
+    }
+
+    .tv>img{
+        width: 90vw;
+    }
+
+    .tv video{
+        width: 70vw;
+        left: 15%;
+    }
+
+    .download .download-box{
+        height: 70px;
+        border-radius: 10px;
+    }
+
+    .apple-mon>img{
+        width: 90vw;
+    }
+
+    .kid-image>img{
+        width: 90vw;
+    }
+
 }

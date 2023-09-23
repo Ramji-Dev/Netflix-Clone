@@ -42,7 +42,7 @@ html, body{
     background-position: 52% 70%;
     border-bottom: 8px solid #232323;
     background-image: radial-gradient(100% 55% at center, rgba(0,0,0,0) 0%, rgb(0, 0, 0) 100%), url("/Netflix-Clone/assets/images/ntflx_bg_hd.jpg");
-    /* background-blend-mode: multiply; */
+
 }
 
 .hero .nav{
@@ -56,6 +56,8 @@ html, body{
 
 .nav .right{
     width: 50%;
+    display: flex;
+    align-items: center;
 }
 
 .right img{
@@ -75,9 +77,8 @@ html, body{
     transition: all ease-out 0.3s;
 }
 
-.left button{
-    height: 30px;
-    width: 70px;
+button{
+    cursor: pointer;
 }
 
 .left .lang{
@@ -86,7 +87,6 @@ html, body{
     border: solid #545454 0.1px;
     border-radius: 3px;
     color: #fff;
-    background-color: transparent;
     font-family: NTF_regular;
     font-size: 16px;
     text-align: center;
@@ -129,13 +129,14 @@ html, body{
     align-items: center;
     justify-content: center;
     position: absolute;
-    top: 200px;
+    top: 130px;
     padding: 0% 10%;
 }
 
 .title h1{
     font-size: 48px;
     font-family: NTF_medium;
+    text-align: center;
 }
 
 .title h3{
@@ -143,6 +144,7 @@ html, body{
     font-size: 25px;
     font-family: NTF_regular;
     font-weight: 10;
+    text-align: center;
 }
 
 .title h4{
@@ -150,6 +152,7 @@ html, body{
     font-size: 20px;
     font-family: NTF_regular;
     font-weight: 10;
+    text-align: center;
 }
 
 .title .register{
@@ -214,6 +217,7 @@ input{
     align-items: start;
     justify-content: center;
     margin-left: 12%;
+    
 }
 
 .enjoy h1{
@@ -277,7 +281,7 @@ input{
     background-color: #000000;
     position: absolute;
     border: 2px solid #5e5e5e;
-    border-radius: 10px;
+    border-radius: 15px;
     top: 65%;
     left: 23%;
     display: flex;
@@ -292,6 +296,7 @@ input{
 .st_text h3{
     font-size: 1.1vw;
     line-height: 1.5;
+    font-weight: 500;
 }
 
 .st_text h4{
@@ -309,6 +314,7 @@ input{
     align-items: start;
     justify-content: center;
     padding-left: 1%;
+    margin-right: 12%;
 }
 
 .download-title h1{
@@ -356,6 +362,9 @@ input{
 .everywhere .apple-mon{
     width: 50%;
     margin-right: 12%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     position: relative;
 }
 
@@ -384,7 +393,15 @@ input{
     border-bottom: 8px solid #232323;
 }
 
-.kids img{
+.kids .kid-image{
+    width: 50%;
+}
+
+.kids .kid-profile{
+    width: 50%;
+}
+
+.kid-image>img{
     width: 38vw;
 }
 
@@ -467,32 +484,49 @@ footer .container{
     display: flex;
 }
 
+.container .section-1{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0% 10% 2% 0%;
+}
+
 .container .col-1{
     display: flex;
     flex-direction: column;
     line-height: 2.5;
-    padding-right: 15%;
+    /* padding-right: 10%; */
 }
+
 .container .col-2{
     display: flex;
     flex-direction: column;
     line-height: 2.5;
+    /* padding-right: 30%; */
+}
+
+.container .section-2{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
     padding-right: 15%;
 }
+
 .container .col-3{
     display: flex;
     flex-direction: column;
     line-height: 2.5;
-    padding-right: 15%;
+    /* padding-right: 30%; */
 }
+
 .container .col-4{
     display: flex;
     flex-direction: column;
     line-height: 2.5;
-    padding-right: 15%;
+    /* padding-right: 30%; */
 }
 
-.col-1 .lang{
+footer .lang{
     height: 32px;
     width: 120px;
     border: solid #545454 0.1px;
@@ -504,22 +538,23 @@ footer .container{
     text-align: center;
 }
 
-.col-1 .drop_down{
+footer .drop_down{
     position: relative;
+    margin-bottom: 2%;
 }
 
-.col-1 .drop_down .ri-translate-2{
+footer .drop_down .ri-translate-2{
     position: absolute;
-    top: 1px;
+    top: 6px;
     left: 6px;
 }
 
-.col-1 h4{
+footer h4{
     font-family: NTF_regular;
     font-weight: 10;
     font-size: 16px;
 }
 
 .drop_down .lang{
-    background-color: #2c2c2c;
+    background-color: #151515;
 }
