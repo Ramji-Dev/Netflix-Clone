@@ -426,7 +426,9 @@ input{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding-top: 4%;
+    /* padding-top: 4%; */
+    padding: 4%;
+    border-bottom: 8px solid #232323;
 }
 
 .faq h1{
@@ -437,23 +439,91 @@ input{
 }
 
 .faq details{
-    height: 100px;
-    width: 80%;
+    /* height: 80px;
+    width: 85%; */
     background-color: #2d2d2d;
+    margin-bottom: 0.5%;
+    transition: all ease 1s;
+    transition: max-height 400ms ease-out;
+    /* transition: all 0.25s cubic-bezier(0.5, 0, 0.1, 1) 0s; */
 }
 
 
-details summary{
-    font-size: 30px;
+details .summary{
+    height: 80px;
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 25px;
     font-family: NTF_regular;
     font-weight: 10;
+    padding: 2%;
+    cursor: pointer;
+}
+
+summary:hover{
+    background-color: #414141;
+    transition: all ease-in-out 0.2s;
+}
+
+.ri-add-line{
+    font-size: 3vw;
+    font-weight: 1;
 }
 
 details p{
-    font-size: 30px;
+    width: 1200px;
+    background-color: #2d2d2d;
+    font-size: 24px;
     font-family: NTF_regular;
     font-weight: 10;
-    transition: all ease 0.3s;
+    border-top: 0.5px solid #000;
+    padding: 2%;
+}
+
+.faq-regs{
+    margin: 3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.faq-regs h3{
+    font-family: NTF_regular;
+    font-weight: 10;
+    font-size: 20px;
+    margin-bottom: 3%;
+}
+
+.faq-regs .register-2{
+    display: flex;
+    gap: 10px;
+}
+
+.register-2 .mail{
+    height: 60px;
+    width: 380px;
+    border: 0.5px solid #5e5e5e;
+    border-radius: 5px;
+    background-color: rgba(16, 16, 16, 0.8);
+    padding-left: 15px;
+    color: #fff;
+}
+
+.register-2 button{
+    height: 60px;
+    width: 200px;
+    color: #fff;
+    background-color: #e50914;
+    border: none;
+    border-radius: 3px;
+    font-family: NTF_medium;
+    font-size: 25px;
+}
+
+button:hover{
+    background-color: #c11119;
+    transition: all ease-out 0.3s;
 }
 
 /* ------------------------------------------------ */
