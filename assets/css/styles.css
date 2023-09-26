@@ -197,7 +197,7 @@ input{
 
 
 .main .watch-anywhere{
-    height: 80%;
+    height: 80vh;
     color: #fff;
     background-color: #000;
     position: relative;
@@ -251,7 +251,7 @@ input{
 }
 
 .main .download{
-    height: 85%;
+    height: 85vh;
     display: flex;
     align-items: center;
     /* justify-content: center; */
@@ -326,7 +326,7 @@ input{
 }
 
 .main .everywhere{
-    height: 85%;
+    height: 85vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -378,7 +378,7 @@ input{
 }
 
 .main .kids{
-    height: 85%;
+    height: 85vh;
     position: relative;
     display: flex;
     align-items: center;
