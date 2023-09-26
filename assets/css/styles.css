@@ -426,7 +426,6 @@ input{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    /* padding-top: 4%; */
     padding: 4%;
     border-bottom: 8px solid #232323;
 }
@@ -435,14 +434,13 @@ input{
     font-family: NTF-bold;
     font-weight: 700;
     font-size: 50px;
+    text-align: center;
     padding-bottom: 2%;
 }
 
 .faq details{
-    /* height: 80px;
-    width: 85%; */
     background-color: #2d2d2d;
-    margin-bottom: 0.5%;
+    margin-bottom: 0.8%;
     transition: all ease 1s;
     transition: max-height 400ms ease-out;
     /* transition: all 0.25s cubic-bezier(0.5, 0, 0.1, 1) 0s; */
@@ -451,8 +449,9 @@ input{
 
 details .summary{
     height: 80px;
-    width: 1200px;
+    width: 85vw;
     display: flex;
+    align-items: center;
     justify-content: space-between;
     font-size: 25px;
     font-family: NTF_regular;
@@ -472,7 +471,7 @@ summary:hover{
 }
 
 details p{
-    width: 1200px;
+    width: 85vw;
     background-color: #2d2d2d;
     font-size: 24px;
     font-family: NTF_regular;
@@ -489,6 +488,7 @@ details p{
 }
 
 .faq-regs h3{
+    text-align: center;
     font-family: NTF_regular;
     font-weight: 10;
     font-size: 20px;
@@ -497,6 +497,8 @@ details p{
 
 .faq-regs .register-2{
     display: flex;
+    align-items: center;
+    justify-content: center;
     gap: 10px;
 }
 

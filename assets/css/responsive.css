@@ -259,8 +259,37 @@
         margin-top: 3%;
     }
 
+    .main .faq{
+        padding: 8% 2% 8% 2%;
+    }
+
+    .faq h1{
+        font-size: 30px;
+        font-weight: 10;
+        margin-bottom: 2%;
+    }
+
+    details .summary{
+        height: 75px;
+        width: 90vw;
+        font-size: 18px;
+    }
+
+    .faq-regs h3{
+        font-size: 18px;
+    }
+
     .main footer{
         height: 80%;
+    }
+
+    .ri-add-line{
+        font-size: 2vw;
+        font-weight: 1;
+    }
+
+    details p{
+        font-size: 18px;
     }
 
     .container .section-1, .section-2{
@@ -355,6 +384,12 @@
     }
 }
 
+@media (max-width: 725px){
+    .register-2 .mail{
+        width: 50vw;
+    }
+}
+
 @media (max-width: 600px) {
     .main .watch-anywhere{
         height: 70%;
@@ -424,6 +459,47 @@
 
     .kid-image>img{
         width: 90vw;
+    }
+
+    .main .faq{
+        padding: 10% 4% 10% 4%;
+    }
+
+    .faq details{
+        margin-bottom: 2%;
+    }
+
+    details .summary{
+        width: 85vw;
+        padding: 5%;
+        /* margin-bottom: 2%; */
+    }
+
+    details p{
+        width: 85vw;
+        padding: 5%;
+    }
+
+    .faq-regs .register-2{
+        flex-direction: column;
+    }
+
+    .register-2 .mail{
+        width: 80vw;
+    }
+
+    .ri-add-line{
+        font-size: 3vw;
+    }
+
+    .faq-regs h3{
+        margin-bottom: 10%;
+    }
+
+    .register-2 .start{
+        height: 50px;
+        width: 170px;
+        font-size: 20px;
     }
 
 }
