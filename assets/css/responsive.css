@@ -86,9 +86,9 @@
         width: 120px;
     }
 
-    .hero{
-        height: 78%;
-        background-size: 1200px;
+    .main .hero{
+        height: 45vh;
+        background-size: 1300px;
         background-position: 50% 100%;
     }
 
@@ -391,20 +391,24 @@
 }
 
 @media (max-width: 600px) {
+    .main .hero{
+        height: 75vh;
+    }
+
     .main .watch-anywhere{
-        height: 70%;
+        height: 60vh;
     }
     
     .main .download{
-        height: 70%;
+        height: 60vh;
     }
     
     .main .everywhere{
-        height: 70%;
+        height: 60vh;
     }
 
     .main .kids{
-        height: 70%;
+        height: 60vh;
     }
 
     .nav .left{
@@ -449,8 +453,15 @@
     }
 
     .download .download-box{
-        height: 70px;
+        height: 68px;
+        width: 60vw;
         border-radius: 10px;
+        padding: 0% 2%;
+        left: 13%;
+    }
+
+    .download-box>img{
+        width: 8vw;
     }
 
     .apple-mon>img{
@@ -468,16 +479,14 @@
     .faq details{
         margin-bottom: 2%;
     }
-
+    
     details .summary{
         width: 85vw;
-        padding: 5%;
-        /* margin-bottom: 2%; */
+        padding: 0% 5%;
     }
 
     details p{
         width: 85vw;
-        padding: 5%;
     }
 
     .faq-regs .register-2{
@@ -489,7 +498,7 @@
     }
 
     .ri-add-line{
-        font-size: 3vw;
+        font-size: 6vw;
     }
 
     .faq-regs h3{
@@ -500,6 +509,10 @@
         height: 50px;
         width: 170px;
         font-size: 20px;
+    }
+
+    .container .section-1{
+        height: 50%;
     }
 
 }

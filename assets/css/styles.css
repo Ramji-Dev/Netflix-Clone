@@ -19,8 +19,8 @@
 }
 
 *{
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
@@ -117,6 +117,7 @@ button{
     position: relative;
     color: #fff;
 }
+
 .sign_up .title
 {
     display: flex;
@@ -527,7 +528,7 @@ button:hover{
 
 .main footer{
     margin: 5%;
-    padding: 0% 2%;
+    padding: 5% 2%;
     height: 50%;
 }
 
@@ -549,6 +550,7 @@ a{
 footer .container{
     width: 100%;
     display: flex;
+    margin-bottom: 2%;
 }
 
 .container .section-1{
@@ -610,7 +612,7 @@ footer .drop_down{
     margin-bottom: 2%;
 }
 
-footer .drop_down .ri-translate-2{
+.drop_down .ri-translate-2{
     position: absolute;
     top: 6px;
     left: 6px;
